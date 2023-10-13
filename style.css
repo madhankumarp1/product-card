@@ -1,0 +1,102 @@
+body {
+    position: fixed;
+/* justify-content: center; */
+    width: 100vw;
+    height: 100vh;
+        /* display: flex; */
+    background-color:  #f2eae2;
+    margin: 0px auto;
+    top: 149px;
+
+}
+
+.container {
+    display: flex;
+    margin: 0px auto;
+    width: 463px;
+    height: 368px;
+    background-color: #ffffff;
+    /* box-shadow: rgb(0, 0, 0, 0.54) 6px 4px 13px 0px; */
+    border-radius: 20px;
+}
+.card { 
+    max-width: 600px;
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    font-family: arial;    
+}
+.user-info {
+    padding: 5px 16px;
+    /* display: flex; */
+}
+
+button {
+    background-color:#007D69;
+    padding: 12px;
+    /* margin: 0px auto;*/
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p.price {
+    font-size: x-large;
+    margin: 0px;
+    padding: 15px 10px;
+    color: #007D69  ;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: 'Fraunces', serif;
+    
+
+}
+
+img {
+    width: 222px;
+    height: 367px;
+    display: flex;
+    /* outline-width: medium; */
+    /* border-radius: 20px; */
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;	
+}
+
+h2 {
+    margin: 0px;
+    padding: 12px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    font-weight: 500;
+    color: gray;
+}
+
+h1 {
+    margin: 0px;
+    padding: 8px 0px;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    display: flex;
+}
+
+p {
+    margin: 0px;
+    padding: 3px 0px;
+    font-size: smaller;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: smaller;
+    /* font-family: 'Fraunces', serif; */
+}
+strike {
+    font-size: small;
+    color: gray;
+    font-weight: lighter;
+    
+}
+button:hover{
+    background-color:#1b4d3e;
+}
